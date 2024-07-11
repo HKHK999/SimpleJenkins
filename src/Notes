@@ -34,3 +34,49 @@ How to commit code and push it (2 approaches, can be console, now will do via ID
 click main - commit - push
 
 
+Jenkins:
+! - for our lesson!
+item name - project name (we all logged to the same account, have the same username,
+so we need to name the project differently)
+
+named - click on freestyle project - ok
+then jdk 11, git (add url)
+
+when we create/have project - it's not our computer, it's a cloud server ???
+
+when we run something from server - we run it from CONSOLE!!!!!
+(click in IDE on terminal icon)
+
+steps to run:
+now we will teach jenkins how to run the code
+
+ls (to see list of files in our folder)
+
+there we have folder (src), go there
+cd src
+javac Main.java (compile main folder(convert to byte code))
+java Main.class   (class not java! to run it)
+compiler programm - compiles source code from code to byte code (so computer can read it)
+I got error ??!!
+
+
+then in Jenkins click Configure
+in configure - build steps (for ???) - execute shell
+(here we can specify our commands, same we did in terminal in IDE) cd, rcs, javac java
+then apply - save
+
+(fetched, build compiled the code) - ????
+
+it was manual, but we can do automatic way:
+when we make changes in IDE, Jenkins check is anything new on GitHub, fetches that, compile, executes
+
+configure - build triggers - build perioditacaly
+ti run every minute example
+(here we need to specify schedule, via cron job, just google how often I want to run it)
+
+then we want for example:
+poll SCM (every minute Jenkins checks if we commit something in the remote repo. if yes, it will pull it)
+
+
+
+
