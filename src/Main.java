@@ -6,6 +6,7 @@ public class Main {
             System.out.println("KEK");
             Thread.sleep(2000);
         }
+        System.out.println("Shpek");
     }
 
 }
