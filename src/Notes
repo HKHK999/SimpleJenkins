@@ -72,7 +72,7 @@ when we make changes in IDE, Jenkins check is anything new on GitHub, fetches th
 
 configure - build triggers - build perioditacaly
 ti run every minute example
-(here we need to specify schedule, via cron job, just google how often I want to run it)
+(here we need to specify schedule, via cron expression, just google how often I want to run it)
 
 then we want for example:
 poll SCM (every minute Jenkins checks if we commit something in the remote repo. if yes, it will pull it)

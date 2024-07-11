@@ -7,6 +7,9 @@ public class Main {
             Thread.sleep(2000);
         }
         System.out.println("Shpek");
+
+        Dog dog = new Dog();
+        dog.bark();
     }
 
 }
