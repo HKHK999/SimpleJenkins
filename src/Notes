@@ -1,0 +1,36 @@
+to run my automation scripts(tests) (like: regression/smoke/etc) I need Jenkins  (for testers/devs)
+(because we run tests on separate computer)
+(fetches/pull all my tests from GitHub, executes test cases, if something failes - sends report,
+can also see who wrote the test, if it fails - sends to that person email with report that test is failed)
+
+Can also do: we can time tests (have schedule of executing tests): run tests every mondays, every 10 days,
+if new feature appears - can execute all tests (regression test)
+
+devs - can buid and deploy
+
+good thing: Jenkins supports many plugins
+
+
+!!! Building process:
+converting source code to .dmd ??? file, so we run file, not code from ide
+
++ Jenkins is easy to modify, extend
++ free, open-source
++ easy to detect issue in the code (notifies dev, shows the place where is the issue)
+
+Jenkin before tester's tests automatically check if there is any syntax issues
+
+after pushing code, says that commit has problems!
+
+Steps:
+(How to link remote repo to local)
+create new repo on GitHub (copy remote link)
+in IDE click on VCS - enable version control integration
+choose Git
+button Git pops up - click on it - Manage Remotes-add url of remote repo
+push code from local PC to remote repo
+
+How to commit code and push it (2 approaches, can be console, now will do via IDE):
+click main - commit - push
+
+
